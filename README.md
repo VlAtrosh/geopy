@@ -66,7 +66,7 @@ python main.py --min-delay-seconds 0.5
 
 ## 📊 Примеры вывода
 
-Входной файл input.csv:
+## Входной файл input.csv:
 
 ```
 address
@@ -74,7 +74,7 @@ address
 Эрмитаж, Санкт-Петербург
 несуществующий адрес 123
 ```
-Выходной файл output.csv:
+## Выходной файл output.csv:
 
 | input_address | latitude | longitude | geocoded_address | distance_km | status |
 |----------------|----------|-----------|------------------|-------------|--------|
@@ -87,7 +87,7 @@ address
 Done. Geocoded: 2/3. Output: /path/to/output.csv
 ```
 
-Структура кэша cache/geocode_cache.json:
+## Структура кэша cache/geocode_cache.json:
 
 ```
 {
