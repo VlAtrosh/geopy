@@ -40,7 +40,7 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-3. Установите зависимости:
+Установите зависимости:
 
 ```
 pip install -r requirements.txt
